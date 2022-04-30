@@ -1,5 +1,36 @@
 *{
-    background-color: red;
     margin: 0;
     padding: 0;
+}
+.header{
+    background: gray;
+    height: 60px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.corps{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 450px;
+    justify-content: center;
+    background-color: rgb(126, 120, 67);
+    color: white;
+}
+.footer{
+    background-color: gray;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
